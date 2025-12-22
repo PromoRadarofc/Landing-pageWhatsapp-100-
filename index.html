@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo Exclusivo no WhatsApp</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 420px;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(8px);
+      border-radius: 16px;
+      padding: 32px 22px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+
+    .group-image {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 18px;
+      border: 3px solid #25D366;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+      opacity: 0.95;
+      margin-bottom: 26px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      width: 100%;
+      padding: 16px;
+      background: #25D366;
+      color: #000;
+      font-size: 1.15rem;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 50px;
+      animation: pulse 1.5s infinite;
+      transition: transform 0.2s ease;
+    }
+
+    .cta-button:hover {
+      transform: scale(1.03);
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+        transform: translateY(0);
+      }
+      50% {
+        box-shadow: 0 0 0 12px rgba(37, 211, 102, 0);
+        transform: translateY(-2px);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+        transform: translateY(0);
+      }
+    }
+
+    .small-text {
+      margin-top: 16px;
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- FOTO DO GRUPO -->
+    <img 
+      src="achadinhos-image.png" 
+      alt="Foto do grupo WhatsApp" 
+      class="group-image"
+    >
+
+    <h1>Grupo Vip De Achadinhos 🤑</h1>
+
+    <p>
+      👉 Entre no grupo e receba ofertas e achadinhos selecionados direto no WhatsApp.
+    </p>
+
+    <!-- LINK DO GRUPO -->
+    <a href="https://chat.whatsapp.com/I8RK8uVxcqUFzqOeHMyvAu" class="cta-button">
+      Entrar no Grupo
+    </a>
+
+    <div class="small-text">
+      🔔 Promoções Diárias • Garanta sua vaga agora!
+    </div>
+  </div>
+</body>
+</html>
